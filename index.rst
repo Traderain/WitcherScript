@@ -1,5 +1,30 @@
-'''Witcher Script''' ''(.ws)'' is the primary scripting language for [[The Witcher 3: Wild Hunt]]. A very large chunk of the game's logic is written in Witcher Script. [[Modding Scripts in The Witcher 3|Mods can override scripts]] and thus can drastically change game behavior. Witcher Script is a proprietary language, very similar to [https://udn.epicgames.com/Three/UnrealScriptHome.html UnrealScript].
+Witcher Script Documentation
+===========================
 
-Technically, Witcher Script is a [https://en.wikipedia.org/wiki/Strong_and_weak_typing strongly-typed], class-based [https://en.wikipedia.org/wiki/Object-oriented_programming object-oriented] programming language, though it supports functions declared outside of the scope of classes. It uses C-like [https://en.wikipedia.org/wiki/Control_flow control flow] with a single global  [https://en.wikipedia.org/wiki/Namespace namespace]. Functions use pass-by-value by default for [[Witcher 3 Native Datatypes|native datatypes]] and structs, with the keyword <tt>out</tt> indicating pass-by-reference. Pass-by-reference is used for objects. Like C, Witcher Script is [https://en.wikipedia.org/wiki/Free-form_language free form], with semi-colons serving as statement terminators and curly brackets pairs defining groups of statements as well as scope. It is pre-compiled prior to runtime though it supports [[Script Studio#Line By Line Debugging|line-by-line debugging]].
+.. caution::
+   This documentation is work in progress!
 
-Witcher Script doesn't appear to have function references, though it is possible to pass function names for callbacks, though this seems limited to the engine ''(see implementation of Initialize in [[W3Class CPlayerInput]] for example of this)''.
+This is an unofficial documentation for the WitcherScript scripting language of '_The Witcher 3: The Wild Hunt'. 
+.. _The Witcher 3: The Wild Hunt : https://en.wikipedia.org/wiki/Half-Life_(video_game)
+
+Witcher Script (.ws) is the primary scripting language for '_The Witcher 3: The Wild Hunt'. A very large chunk of the game's logic is written in Witcher Script. And thus can drastically change game behavior. Witcher Script is a proprietary language, very similar to https://udn.epicgames.com/Three/UnrealScriptHome.html.
+
+Notations Used
+--------------
+
+
+
+Contact
+-------
+
+This documentation is a community effort. Create an issue if you have any questions.
+
+Contents
+--------
+
+.. toctree::
+   :numbered:
+   :maxdepth: 2
+
+   basics
+   exec
