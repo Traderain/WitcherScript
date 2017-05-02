@@ -35,3 +35,4 @@ Contents
    basics
    exec
    cheatsheet
+   execfunctions
