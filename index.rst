@@ -27,3 +27,4 @@ Contents
 
    basics
    exec
+   cheatsheet
