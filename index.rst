@@ -18,11 +18,20 @@ Contact
 
 This documentation is a community effort. Create an issue if you have any questions.
 
+
+Community
+-------
+
+If you need to discuss witcher 3 modding or consult with the community, you should visit one of following places:
+`Official Witcher 3 forums modding section <http://forums.cdprojektred.com/forum/en/the-witcher-series/the-witcher-3-wild-hunt/mod-discussions/>`_
+
 Contents
 --------
 
 .. toctree::
    :numbered:
    :maxdepth: 2
-   
+
+   basics
+   exec
    cheatsheet
