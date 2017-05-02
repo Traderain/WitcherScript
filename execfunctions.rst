@@ -19,7 +19,6 @@ inside that folder create another folder called "content", go into it and create
 Inside that folder create file called "latentfunction.ws" (make sure it's .ws not .ws.txt).
 
 In short, your folder hierarchy should look as following:
-
 ::
  The Witcher 3 Wild Hunt GOTY\Mods\modExecFunctionTest\content\scripts\local\latentfunction.ws
 
