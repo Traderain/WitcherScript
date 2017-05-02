@@ -26,9 +26,9 @@ and add following code inside:
 ::
 
 save the file and run the game, once you open console using "~"(tilde) key, you can write:
-
-printmystring("Praise Kek!")
-
+::
+ printmystring("Praise Kek!")
+::
 To see your string printed using game's default HUD message module.
 
 Of course this is one of most simple examples imaginable. Exec functions are good for any kind of instantaneous work that needs
