@@ -18,15 +18,12 @@ Go to your Witcher 3 installation folder, inside "Mods" folder, create new folde
 inside that folder create another folder called "content", go into it and create another folder called "scripts" and inside that folder create a folder called "local".
 Inside that folder create file called "latentfunction.ws" (make sure it's .ws not .ws.txt). Open the file with text editor of your preference (Notepad++ is strongly recommended)
 and add following code inside:
-
-``
-
-exec function printmystring(var : String)
-{
- GetWitcherPlayer().DisplayHudMessage(var);
-}
-
-``
+::
+ exec function printmystring(var : String)
+ {
+  GetWitcherPlayer().DisplayHudMessage(var);
+ }
+::
 
 save the file and run the game, once you open console using "~"(tilde) key, you can write:
 
