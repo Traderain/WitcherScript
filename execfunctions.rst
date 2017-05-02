@@ -16,7 +16,14 @@ Creating custom exec function
 
 Go to your Witcher 3 installation folder, inside "Mods" folder, create new folder called "modExecFunctionTest", 
 inside that folder create another folder called "content", go into it and create another folder called "scripts" and inside that folder create a folder called "local".
-Inside that folder create file called "latentfunction.ws" (make sure it's .ws not .ws.txt). Open the file with text editor of your preference (Notepad++ is strongly recommended)
+Inside that folder create file called "latentfunction.ws" (make sure it's .ws not .ws.txt).
+
+In short, your folder hierarchy should look as following:
+
+::
+ The Witcher 3 Wild Hunt GOTY\Mods\modExecFunctionTest\content\scripts\local\latentfunction.ws
+
+Open the file with text editor of your preference (Notepad++ is strongly recommended)
 and add following code inside:
 ::
  exec function printmystring(var : String)
