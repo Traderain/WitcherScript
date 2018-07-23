@@ -25,15 +25,15 @@ In short, your folder hierarchy should look as following:
 Open the file with text editor of your preference (Notepad++ is strongly recommended)
 and add following code inside:
 ::
- exec function printmystring(var : String)
+ exec function printmystring(msg : String)
  {
-  GetWitcherPlayer().DisplayHudMessage(var);
+  GetWitcherPlayer().DisplayHudMessage(msg);
  }
 ::
 
 save the file and run the game, once you open console using "~"(tilde) key, you can write:
 ::
- printmystring("Praise Kek!")
+ printmystring("Hello from witcher script!")
 
 To see your string printed using game's default HUD message module.
 
