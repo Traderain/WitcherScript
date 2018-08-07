@@ -9,7 +9,9 @@ Importing a class and using it in a Script
 
 - Run the game with -dumprtti and it will generate an xml file called rttidump.xml
 - Create a ws file and inside that follow the guidance of the xml.
+
 Example:
+
 ::
     import class CParticleSystem extends CResource
     {
@@ -22,7 +24,9 @@ Example:
         import var renderingPlane : ERenderingPlane;
     }
 ::
+
 After that you can use it like so:
+
 ::
     exec function w2p()
     {
