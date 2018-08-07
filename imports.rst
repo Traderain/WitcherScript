@@ -11,7 +11,6 @@ Importing a class and using it in a Script
 - Create a ws file and inside that follow the guidance of the xml.
 
 Example:
-
 ::
     import class CParticleSystem extends CResource
     {
@@ -26,7 +25,6 @@ Example:
 ::
 
 After that you can use it like so:
-
 ::
     exec function w2p()
     {
