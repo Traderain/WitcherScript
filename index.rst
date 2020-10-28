@@ -31,4 +31,5 @@ Contents
    exec
    cheatsheet
    execfunctions
+   latentfunctions
    imports
